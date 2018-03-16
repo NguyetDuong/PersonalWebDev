@@ -1,27 +1,50 @@
+/* F O N T S */
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display');
+
+
+/* B O D Y */
 html, body {
     height: 100%;
     margin: 0;
 }
 
 /* H E A D E R - D E T A I L S */
-
 .header-wrapper {
     min-height: 100%; 
-    background-color: #ccc;
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
 }
 
 .header-left {
 	width: 50%;
 	min-height: 100%;
-	background-color: pink;
+    background-color: white;
+    background-image: url("../img/header.jpeg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-position: 33%;
 	float: left;
 }
 
 .header-right {
 	width: 50%;
 	min-height: 100%;
-	background-color: green;
 	float: right;
+    background-color: #f0f1f5;
+    display: flex;
+    align-items: center;
+}
+
+.header-right-box {  
+    margin: auto;
+    width: 50%;
+
+}
+
+.header-right-box h1 {
+    color: #e8c158;
+    font-size: 30pt;
+    line-height: 5px;
 }
 
 /* F O O T E R - D E T A I L S */
