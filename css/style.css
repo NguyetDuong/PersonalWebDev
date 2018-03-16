@@ -52,6 +52,28 @@ html, body {
     font-family: 'Playfair Display', serif;
 }
 
+.header-icons {
+    padding-top: 45px;
+}
+
+.header-icons a {
+    color: black;
+    text-decoration: none;
+    padding-right: 15px;
+    opacity: 0.80;
+    transition: opacity .4s ease-out;
+    -moz-transition: opacity .4s ease-out;
+    -webkit-transition: opacity .4s ease-out;
+    -o-transition: opacity .4s ease-out;
+    
+}
+
+.header-icons a:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: black;
+}
+
 /* F O O T E R - D E T A I L S */
 
 .footer {
