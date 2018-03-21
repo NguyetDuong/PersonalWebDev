@@ -4,12 +4,14 @@
 /* B O D Y */
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
 /* H E A D E R - D E T A I L S */
 .header-wrapper {
     min-height: 100%; 
+    width: 100%;
     background-color: #fff;
     font-family: 'Lato', sans-serif;
 }
@@ -74,11 +76,13 @@ html, body {
 }
 
 .arrow {
-    text-align: left;
-    margin: 0 0;
+    margin: auto;
     position: absolute;
     bottom: 0px;
-    left: 49.1%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: -15px;
+    display: block;
     font-size: 35pt;
     font-weight: bold;
 }
@@ -118,6 +122,18 @@ html, body {
   }
 }
 
+/* E X P E R I E N C E */
+.exp-wrapper {
+    width: 100%;
+    background-color: #f0f1f5;
+}
+
+.experience {
+    background-color: #fff;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* F O O T E R - D E T A I L S */
 
